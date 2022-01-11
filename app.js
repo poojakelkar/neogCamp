@@ -64,7 +64,26 @@ console.log(firstname)
 var obj = {Aaloo:"Tasty",bhaloo:"cute"}
 console.log(obj)
 
-Assignment 7:
+// Assignment 7:
+// var a = 5;
+// var b = 10;
+// console.log("Fifteen is ".concat(a + b, " and n0t ").concat(2 * a + b, "."));
+
+var a=5
+var b=10;
+console.log(`Fifteem is ${a+b} and not ${2*a+b}.`)
+
+
+//assignment 8:
+// var arithmeticsObj = {
+//     sum: function sum(num1, num2) {
+//       return num1 + num2;
+//     },
+//     multiply: function multiply(num1, num2) {
+//       return num1 * num2;
+//     }
+//   };
+
 
 
 
