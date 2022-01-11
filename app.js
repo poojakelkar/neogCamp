@@ -84,6 +84,9 @@ console.log(`Fifteem is ${a+b} and not ${2*a+b}.`)
 //     }
 //   };
 
+// console.log(arithmeticobj.mul(5,4))
 
+var arithmeticobj = {sum : (num1,num2) => num1+num2 , mul : (num1,num2) => num1*num2}
+console.log(arithmeticobj.mul(6,7))
 
 
