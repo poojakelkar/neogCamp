@@ -107,3 +107,19 @@ const packIt= function packIt(...args){
     console.log(args)
 }
 packIt(1,2,3,5,5)
+
+//assignment 11:
+const hello = () => "Hello"
+const welcome = () => "Welcome"
+const [Hello = hello(), Welcome = welcome()] = ["Namaste"]
+console.log(Hello, Welcome)
+
+//assignment 12:
+const obj5 = {
+    aloo0 : 1,
+    bhallo : 2
+}
+
+const {c : aloo = [2,3,4].push(5), aloo0} = obj5
+
+console.log(aloo)
