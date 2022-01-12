@@ -95,7 +95,8 @@ let avengers = {
         { blackWidow: "Natasha Romanoff" },
     ],
 };
-let operation = avengers.operation, members = avengers.members;
+let operation = avengers.operation,
+    members = avengers.members;
 console.log(members);
 
 //assignment 10:
@@ -103,23 +104,25 @@ console.log(members);
 
 // packIt(1,2,3,5,5)
 
-const packIt= function packIt(...args){
-    console.log(args)
-}
-packIt(1,2,3,5,5)
+const packIt = function packIt(...args) {
+    console.log(args);
+};
+packIt(1, 2, 3, 5, 5);
 
 //assignment 11:
-const hello = () => "Hello"
-const welcome = () => "Welcome"
-const [Hello = hello(), Welcome = welcome()] = ["Namaste"]
-console.log(Hello, Welcome)
+const hello = () => "Hello";
+const welcome = () => "Welcome";
+const [Hello = hello(), Welcome = welcome()] = ["Namaste"];
+console.log(Hello, Welcome);
 
 //assignment 12:
 const obj5 = {
-    aloo0 : 1,
-    bhallo : 2
-}
+    aloo0: 1,
+    bhallo: 2,
+};
 
-const {c : aloo = [2,3,4].push(5), aloo0} = obj5
+const { c: aloo = [2, 3, 4].push(5), aloo0 } = obj5;
+console.log(aloo);
 
-console.log(aloo)
+let hellooo = "Hello, ";
+console.log(hellooo.concat("Kevin", ". Have a nice day."));
