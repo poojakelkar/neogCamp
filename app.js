@@ -126,3 +126,9 @@ console.log(aloo);
 
 let hellooo = "Hello, ";
 console.log(hellooo.concat("Kevin", ". Have a nice day."));
+
+
+
+const oddOrEven = (num) => (num % 2 === 0 ? 'even' : 'odd')
+const res = `The number 5 is ${oddOrEven(5)} `
+console.log(res)
